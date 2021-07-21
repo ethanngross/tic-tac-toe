@@ -105,6 +105,8 @@ let displayController = (() => {
 			}
 		}, 5000);
 
+    document.querySelector('form').style.transform = "scale(1)";
+
     document.querySelector('#start').addEventListener('click', start)
 
     document.querySelector('#restart').addEventListener('click', gameBoard.restart)

@@ -63,7 +63,8 @@ form {
     height: 220px;
     z-index: 1000;
     position: absolute;
-    transition: 1s;
+    transform: scale(0);
+    transition: 2s;
     border-style: solid;
     border-width: 3px;
     border-radius: 10px;
